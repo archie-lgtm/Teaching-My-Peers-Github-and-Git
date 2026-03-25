@@ -4,15 +4,15 @@ public class favoritEmovie {
     //New excercise make sure to synx it first
 
     //Basic fixing
-    public static void rnain (String[] args) {
-        String name = "My Name";
+    public static void main (String[] args) {
+    String[] arc = {"Name: " , "age:","gender:"};
 
-        int age = "0";
+        int age = "19";
 
         boolean gender = 0;
 
-        System.out.println(Name);
-        System.out.println(age);
-        System.out.println(gender);
+        System.out.println(arc[0]+"Archie Silva");
+        System.out.println(arc[1]+"19");
+        System.out.println(arc[2]+"Male");
     }
 }

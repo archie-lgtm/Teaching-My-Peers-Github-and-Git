@@ -7,7 +7,10 @@ public class EvenOrOdd {
         // Task: Write an if-else statement that prints "Even" 
         // if number is even, otherwise print "Odd"
         // Hint: Use modulo operator %
-            else
+
+        if (number%2 == 0) {
+            System.out.println("Even");
+    }else{
             System.out.println("Odd");
     }
 }
